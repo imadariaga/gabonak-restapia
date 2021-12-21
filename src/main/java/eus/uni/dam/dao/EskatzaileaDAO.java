@@ -17,6 +17,7 @@ import com.mongodb.client.MongoCollection;
 public class EskatzaileaDAO {
 	@Autowired
     private MongoClient client;
+	
     private MongoCollection<Eskatzailea> collection;
 
     @PostConstruct
